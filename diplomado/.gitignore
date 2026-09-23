@@ -2,6 +2,7 @@ node_modules
 .pnpm
 .turbo
 coverage
+dist
 .next
 .expo
 *.log

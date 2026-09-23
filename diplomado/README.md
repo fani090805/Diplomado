@@ -40,6 +40,7 @@ pnpm format
 ## Desarrollo
 
 - API: `pnpm --filter api dev`
+- Backend compatible: `pnpm --dir back dev`
 - Cliente web: `pnpm --filter client web`
 - Cliente Android: `pnpm --filter client android`
 
