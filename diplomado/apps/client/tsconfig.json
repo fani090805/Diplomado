@@ -1,0 +1,18 @@
+{
+  "extends": "../../packages/config/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "verbatimModuleSyntax": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@erp/shared": ["../../packages/shared/src/index.ts"],
+      "@erp/shared/*": ["../../packages/shared/src/*"],
+      "@/": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "app/**/*.ts", "app/**/*.tsx"],
+  "exclude": ["node_modules", "dist", ".expo"]
+}

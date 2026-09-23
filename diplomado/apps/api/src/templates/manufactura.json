@@ -1,0 +1,9 @@
+{
+  "name": "manufactura",
+  "modules": ["tenants", "companies", "users", "rbac", "settings", "auth"],
+  "settings": {
+    "costingMethod": "PEPS",
+    "baseCurrency": "MXN",
+    "approvals": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "servicios",
+  "modules": ["tenants", "companies", "users", "rbac", "settings", "auth"],
+  "settings": {
+    "costingMethod": "estandar",
+    "baseCurrency": "MXN",
+    "approvals": []
+  }
+}

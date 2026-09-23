@@ -1,0 +1,9 @@
+{
+  "name": "comercio",
+  "modules": ["tenants", "companies", "users", "rbac", "settings", "auth"],
+  "settings": {
+    "costingMethod": "promedio",
+    "baseCurrency": "MXN",
+    "approvals": []
+  }
+}

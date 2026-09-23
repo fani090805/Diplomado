@@ -1,0 +1,32 @@
+openapi: 3.1.0
+info:
+  title: ERP API
+  version: 1.0.0
+  description: API REST versionada para ERP modular de múltiples empresas.
+servers:
+  - url: http://localhost:4000/api/v1
+    description: Servidor local de desarrollo
+paths:
+  /health:
+    get:
+      summary: Health check
+      operationId: getHealth
+      responses:
+        '200':
+          description: API disponible
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  api:
+                    type: string
+                  database:
+                    type: string
+                  timestamp:
+                    type: string
+                    format: date-time
+                  uptime:
+                    type: number
